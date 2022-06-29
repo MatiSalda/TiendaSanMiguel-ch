@@ -1,0 +1,44 @@
+/* EMPIEZA INDEX.HTML */
+.contenedorVideo {
+    overflow: hidden;
+    padding-bottom: 400px;
+    position: relative;
+    height: 0;
+    justify-content: center;
+
+    iframe {
+        left: 50%;
+        top: 0;
+        height: 100%;
+        width: 90%;
+        position: absolute;
+        transform: translateX(-50%);
+
+    }
+}
+
+.productosIndex {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+
+    a {
+        transition: 0.7s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+#irArriba {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+}
+
+/* TERMINA INDEX.HTML */

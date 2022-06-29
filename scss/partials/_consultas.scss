@@ -1,0 +1,21 @@
+
+.consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .consultasDiv {
+        margin: 20px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 25px;
+
+        p {
+            margin: 40px;
+        }
+    }
+}

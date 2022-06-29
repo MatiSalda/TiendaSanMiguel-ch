@@ -1,0 +1,39 @@
+/* EMPIEZA  EMPRESA.HTML */
+.empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p,
+    h2,
+    h1 { // <---------------------- fijate
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .divEmpresa {
+        width: 50%;
+
+        .tituloEmpresa {
+            margin-bottom: 30px;
+        }
+
+        .figureDeposito {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+
+            #deposito {
+                border-radius: 30px;
+                max-width: 400px;
+                max-height: 400px;
+            }
+        }
+
+    }
+}
+
+/* TERMINA EMPRESA.HTML */
