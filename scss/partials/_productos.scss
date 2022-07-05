@@ -2,35 +2,32 @@
 .producto {
     height: 300px;
     width: 300px;
-    margin: 10px;
-    display: flex;
+    margin-bottom: 20px;
+    @include flex (center);
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     transition: 0.7s;
 
     &:hover {
         transform: scale(1.05);
         color: #000000;
-
     }
 
     .imgProducto {
         max-height: 250px;
         max-width: 250px;
-
-
     }
 }
 
 .menuSecundario {
     ul {
         text-align: center;
-        display: flex;
-        justify-content: center;
+        @include flex (center);
+        
         padding: 0;
 
         li {
+            margin: 10px;
             list-style: none;
             transition: 0.2s;
 
@@ -41,7 +38,7 @@
             a {
                 font-size: 25px;
                 padding: 10px;
-                background-color: #abfcae;
+                background-color: map-get($colores, colorSecundario );
                 border-radius: 30px;
                 margin: 0 5px;
                 box-shadow:

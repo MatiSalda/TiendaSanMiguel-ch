@@ -1,3 +1,11 @@
+.productoSinStock {
+  color: red; }
+  .productoSinStock h5 {
+    background-color: red;
+    color: white;
+    width: 70%;
+    border-radius: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -128,19 +136,19 @@ footer {
 
 /* TERMINA INDEX.HTML */
 /* EMPIEZA PRODUCTOS */
-.producto {
+.producto, .productoSinStock {
   height: 300px;
   width: 300px;
-  margin: 10px;
+  margin-bottom: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   transition: 0.7s; }
-  .producto:hover {
+  .producto:hover, .productoSinStock:hover {
     transform: scale(1.05);
     color: #000000; }
-  .producto .imgProducto {
+  .producto .imgProducto, .productoSinStock .imgProducto {
     max-height: 250px;
     max-width: 250px; }
 
@@ -150,6 +158,7 @@ footer {
   justify-content: center;
   padding: 0; }
   .menuSecundario ul li {
+    margin: 10px;
     list-style: none;
     transition: 0.2s; }
     .menuSecundario ul li:hover {
@@ -177,8 +186,8 @@ footer {
 /* EMPIEZA  EMPRESA.HTML */
 .empresa {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center; }
   .empresa p,
   .empresa h2,
@@ -204,8 +213,8 @@ footer {
 /* EMPIEZA CONTACTO.HTML */
 .formulario {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center; }
   .formulario form {
     margin: 10px auto;
@@ -227,8 +236,8 @@ footer {
 .mapa {
   margin: 10px auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 90%; }
   .mapa iframe {
@@ -313,8 +322,9 @@ footer {
     .sectionProductos img {
       width: 60%;
       height: 60%; }
-  .producto {
-    width: 90%; }
+  .producto, .productoSinStock {
+    width: 90%;
+    margin: 20px; }
   .menuSecundario ul {
     display: flex;
     flex-wrap: wrap; }
@@ -349,10 +359,10 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px; }
-  .producto {
+  .producto, .productoSinStock {
     height: 300px;
     width: 300px;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

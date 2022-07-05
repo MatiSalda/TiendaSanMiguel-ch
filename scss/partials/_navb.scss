@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background-color: #b9ffb8;
+    background-color: map-get($colores, colorPrincipal );
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow:
@@ -36,9 +36,8 @@ header {
     }
 }
 footer {
-    background-color: #5bc26e;
-    display: flex;
-    justify-content: center;
+    background-color: map-get($colores, colorFooter);
+    @include flex (center);
     align-items: center;
     grid-area: footer;
     ul {

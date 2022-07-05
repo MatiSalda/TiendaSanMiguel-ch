@@ -1,0 +1,10 @@
+.productoSinStock{
+    @extend .producto;
+  color: red;
+  h5 {
+    background-color: red;
+    color: white;
+    width: 70%;
+    border-radius: 10px;
+  }
+}
