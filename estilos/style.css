@@ -362,7 +362,7 @@ footer {
   .producto, .productoSinStock {
     height: 300px;
     width: 300px;
-    margin: 30px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
