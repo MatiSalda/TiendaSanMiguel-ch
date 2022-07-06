@@ -1,11 +1,3 @@
-.productoSinStock {
-  color: red; }
-  .productoSinStock h5 {
-    background-color: red;
-    color: white;
-    width: 70%;
-    border-radius: 10px; }
-
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +128,7 @@ footer {
 
 /* TERMINA INDEX.HTML */
 /* EMPIEZA PRODUCTOS */
-.producto, .productoSinStock {
+.producto {
   height: 300px;
   width: 300px;
   margin-bottom: 20px;
@@ -145,10 +137,10 @@ footer {
   flex-direction: column;
   align-items: center;
   transition: 0.7s; }
-  .producto:hover, .productoSinStock:hover {
+  .producto:hover {
     transform: scale(1.05);
     color: #000000; }
-  .producto .imgProducto, .productoSinStock .imgProducto {
+  .producto .imgProducto {
     max-height: 250px;
     max-width: 250px; }
 
@@ -320,10 +312,11 @@ footer {
     display: grid;
     gap: 10px; }
     .sectionProductos img {
-      width: 60%;
-      height: 60%; }
-  .producto, .productoSinStock {
+      width: 70%;
+      height: 70%; }
+  .producto {
     width: 90%;
+    height: 90%;
     margin: 20px; }
   .menuSecundario ul {
     display: flex;
@@ -359,7 +352,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px; }
-  .producto, .productoSinStock {
+  .producto {
     height: 300px;
     width: 300px;
     margin-bottom: 20px;
