@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background-color: map-get($colores, colorPrincipal );
+    background-color: map-get($colores, colorPrincipal);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow:
@@ -13,6 +13,7 @@ header {
     justify-content: space-around;
     align-items: center;
     grid-area: header;
+
     nav {
         grid-area: nav;
         display: flex;
@@ -35,19 +36,24 @@ header {
         }
     }
 }
+
 footer {
     background-color: map-get($colores, colorFooter);
     @include flex (center);
     align-items: center;
     grid-area: footer;
+
     ul {
         padding: 0;
+
         li {
             display: inline-block;
-            margin: 30px;
+            margin: 30px 20px 0px 20px;
             list-style: none;
+
             a img {
                 transition: 1s;
+
                 &:hover {
                     transform: scale(1.3);
                 }

@@ -87,7 +87,7 @@ footer {
     padding: 0; }
     footer ul li {
       display: inline-block;
-      margin: 30px;
+      margin: 30px 20px 0px 20px;
       list-style: none; }
       footer ul li a img {
         transition: 1s; }
@@ -95,6 +95,12 @@ footer {
           transform: scale(1.3); }
 
 /* EMPIEZA INDEX.HTML */
+.titulo {
+  display: flex;
+  justify-content: center; }
+  .titulo h1 {
+    width: 50%; }
+
 .contenedorVideo {
   overflow: hidden;
   padding-bottom: 400px;
@@ -157,9 +163,9 @@ footer {
       transform: scale(1.1); }
     .menuSecundario ul li a {
       font-size: 25px;
-      padding: 10px;
+      padding: 8px;
       background-color: #abfcae;
-      border-radius: 30px;
+      border-radius: 20px;
       margin: 0 5px;
       box-shadow: 0.3px 0.5px 2.2px rgba(0, 0, 0, 0.02), 0.8px 1.1px 5.3px rgba(0, 0, 0, 0.028), 1.5px 2.1px 10px rgba(0, 0, 0, 0.035), 2.7px 3.8px 17.9px rgba(0, 0, 0, 0.042), 5px 7.1px 33.4px rgba(0, 0, 0, 0.05), 12px 17px 80px rgba(0, 0, 0, 0.07);
       transition: 0.2s; }
@@ -179,23 +185,25 @@ footer {
 .empresa {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: row;
+  text-align: center; }
   .empresa p,
   .empresa h2,
   .empresa h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px; }
+    margin: 5px;
+    text-align: center; }
   .empresa .divEmpresa {
-    width: 50%; }
+    width: 80%; }
     .empresa .divEmpresa .tituloEmpresa {
       margin-bottom: 30px; }
     .empresa .divEmpresa .figureDeposito {
       display: flex;
       justify-content: center;
-      margin: 30px; }
+      margin: 10px;
+      width: 100%; }
       .empresa .divEmpresa .figureDeposito #deposito {
         border-radius: 30px;
         max-width: 400px;
@@ -219,6 +227,9 @@ footer {
     box-shadow: 0.3px 0.5px 2.2px rgba(0, 0, 0, 0.02), 0.8px 1.1px 5.3px rgba(0, 0, 0, 0.028), 1.5px 2.1px 10px rgba(0, 0, 0, 0.035), 2.7px 3.8px 17.9px rgba(0, 0, 0, 0.042), 5px 7.1px 33.4px rgba(0, 0, 0, 0.05), 12px 17px 80px rgba(0, 0, 0, 0.07); }
     .formulario form .form {
       margin: 10px; }
+      .formulario form .form .btn-primary {
+        background-color: #5bc26e;
+        padding: 3px; }
       .formulario form .form .inputForm {
         height: 30px;
         border-radius: 5px;
@@ -271,8 +282,8 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-  #titulo a {
-    font-size: 20px; }
+    #titulo div ul a {
+      font-size: 20px; }
   .mapa iframe {
     width: 250px;
     height: 150px; }
@@ -292,6 +303,10 @@ footer {
     align-items: center; }
   .consultasDiv p {
     margin: 20px; }
+  figure {
+    width: 100%; }
+    figure #deposito {
+      width: 100%; }
   footer,
   footer ul {
     display: flex;

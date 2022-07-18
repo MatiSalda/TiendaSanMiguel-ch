@@ -23,7 +23,6 @@
     ul {
         text-align: center;
         @include flex (center);
-        
         padding: 0;
 
         li {
@@ -37,9 +36,9 @@
 
             a {
                 font-size: 25px;
-                padding: 10px;
-                background-color: map-get($colores, colorSecundario );
-                border-radius: 30px;
+                padding: 8px;
+                background-color: map-get($colores, colorSecundario);
+                border-radius: 20px;
                 margin: 0 5px;
                 box-shadow:
                     0.3px 0.5px 2.2px rgba(0, 0, 0, 0.02),
@@ -52,7 +51,6 @@
                 transition: 0.2s;
 
                 &:hover {
-
                     color: rgb(241, 253, 244);
                 }
             }

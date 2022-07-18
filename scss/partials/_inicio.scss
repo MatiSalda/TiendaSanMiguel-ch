@@ -1,4 +1,13 @@
 /* EMPIEZA INDEX.HTML */
+.titulo {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        width: 50%;
+    }
+}
+
 .contenedorVideo {
     overflow: hidden;
     padding-bottom: 400px;
@@ -40,5 +49,4 @@
     right: 2%;
     bottom: 2%;
 }
-
 /* TERMINA INDEX.HTML */
