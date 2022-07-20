@@ -165,9 +165,7 @@
     }
 
     .producto {
-
-        height: 300px;
-        width: 300px;
+        
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
@@ -176,8 +174,8 @@
     }
 
     .imgProducto {
-        max-height: 250px;
-        max-width: 250px;
+        height: 350px;
+        width: 350px;
     }
 
     .sectionProductos img {

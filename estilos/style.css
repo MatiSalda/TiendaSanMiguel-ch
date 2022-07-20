@@ -196,13 +196,13 @@ footer {
     margin: 5px;
     text-align: center; }
   .empresa .divEmpresa {
-    width: 80%; }
+    width: 50%; }
     .empresa .divEmpresa .tituloEmpresa {
       margin-bottom: 30px; }
     .empresa .divEmpresa .figureDeposito {
       display: flex;
       justify-content: center;
-      margin: 10px;
+      margin: 20px 0 20px 0;
       width: 100%; }
       .empresa .divEmpresa .figureDeposito #deposito {
         border-radius: 30px;
@@ -368,16 +368,14 @@ footer {
     width: 100%;
     margin-top: 30px; }
   .producto {
-    height: 300px;
-    width: 300px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
   .imgProducto {
-    max-height: 250px;
-    max-width: 250px; }
+    height: 350px;
+    width: 350px; }
   .sectionProductos img {
     width: 90%;
     height: 90%; }
