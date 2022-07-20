@@ -106,7 +106,8 @@ footer {
   padding-bottom: 400px;
   position: relative;
   height: 0;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 20px; }
   .contenedorVideo iframe {
     left: 50%;
     top: 0;
@@ -126,6 +127,21 @@ footer {
     transition: 0.7s; }
     .productosIndex a:hover {
       transform: scale(1.05); }
+  .productosIndex .productoDestacado {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.7s; }
+    .productosIndex .productoDestacado:hover {
+      transform: scale(1.05);
+      color: #000000; }
+    .productosIndex .productoDestacado .imgProducto {
+      max-height: 250px;
+      max-width: 250px; }
 
 #irArriba {
   position: fixed;

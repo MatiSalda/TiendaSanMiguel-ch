@@ -14,7 +14,7 @@
     position: relative;
     height: 0;
     justify-content: center;
-
+    margin-bottom: 20px;
     iframe {
         left: 50%;
         top: 0;
@@ -42,7 +42,29 @@
             transform: scale(1.05);
         }
     }
+    .productoDestacado {
+
+        height: 300px;
+        width: 300px;
+        margin:20px;
+        @include flex (center);
+        flex-direction: column;
+        align-items: center;
+        transition: 0.7s;
+    
+        &:hover {
+            transform: scale(1.05);
+            color: #000000;
+        }
+    
+        .imgProducto {
+            max-height: 250px;
+            max-width: 250px;
+        }
+    }
 }
+
+
 
 #irArriba {
     position: fixed;
