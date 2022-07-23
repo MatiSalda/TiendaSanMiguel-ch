@@ -25,13 +25,8 @@ header {
             list-style: none;
 
             a {
-                transition: 0.5s;
                 font-size: 30px;
                 font-weight: 900;
-
-                &:hover {
-                    color: #e8ffe8;
-                }
             }
         }
     }
